@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Web | Desarrollador Full Stack</title>
+  
+  <!-- FontAwesome & Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Estilos CSS vinculados -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Encabezado y Menú de Navegación -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#inicio" class="logo">AlexDev.</a>
+      
+      <button class="hamburger" id="hamburger-btn" aria-label="Abrir menú de navegación">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#inicio" class="nav-link active">Inicio</a>
+        <a href="#sobre-mi" class="nav-link">Sobre Mí</a>
+        <a href="#habilidades" class="nav-link">Habilidades</a>
+        <a href="#proyectos" class="nav-link">Proyectos</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Sección Inicio / Presentación -->
+    <section id="inicio" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Hola, soy <span>Alex Ramírez</span></h1>
+          <p>Desarrollador Web Full Stack apasionado por construir experiencias digitales accesibles, intuitivas y de alto rendimiento.</p>
+          <div class="hero-btns">
+            <a href="#proyectos" class="btn btn-primary"><i class="fas fa-briefcase"></i> Ver Trabajos</a>
+            <a href="#contacto" class="btn btn-secondary"><i class="fas fa-envelope"></i> Contactar</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="avatar-wrapper">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=400" alt="Fotografía de Alex Ramírez, Desarrollador Web Full Stack sonriendo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi">
+      <div class="container">
+        <h2 class="section-title">Sobre Mí</h2>
+        <p class="section-subtitle">Conoce un poco más de mi trayectoria y pasión</p>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>Con más de 5 años de experiencia creando sitios y aplicaciones web responsive. Mi enfoque principal abarca desde la maquetación detallada UI/UX hasta la arquitectura robusta de servicios Backend.</p>
+            <p>Siempre enfocado en el código limpio, semántico y accesible para todos los usuarios. Disfruto convertir ideas complejas en soluciones web sencillas e impactantes.</p>
+            
+            <div class="about-stats">
+              <div class="stat-card">
+                <h3>5+</h3>
+                <p>Años de Experiencia</p>
+              </div>
+              <div class="stat-card">
+                <h3>40+</h3>
+                <p>Proyectos Listos</p>
+              </div>
+              <div class="stat-card">
+                <h3>25+</h3>
+                <p>Clientes Felices</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=600" alt="Espacio de trabajo minimalista con computadora portátil mostrando código HTML y CSS" style="border-radius: var(--radius-md);" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section id="habilidades">
+      <div class="container">
+        <h2 class="section-title">Mis Habilidades</h2>
+        <p class="section-subtitle">Tecnologías y herramientas que utilizo a diario</p>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-info">
+              <span>HTML5 & Accesibilidad</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="95%"></div></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-info">
+              <span>CSS3 & Flexbox/Grid</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="90%"></div></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-info">
+              <span>JavaScript (ES6+)</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="85%"></div></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-info">
+              <span>React JS</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="80%"></div></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-info">
+              <span>Node.js / Express</span>
+              <span>75%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="75%"></div></div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-info">
+              <span>Git & GitHub</span>
+              <span>88%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="88%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos">
+      <div class="container">
+        <h2 class="section-title">Proyectos</h2>
+        <p class="section-subtitle">Explora mis desarrollos recientes</p>
+
+        <!-- Filtros -->
+        <div class="filter-container">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+          <button class="filter-btn" data-filter="fullstack">Fullstack</button>
+        </div>
+
+        <!-- Grid de Tarjetas de Proyectos -->
+        <div class="projects-grid" id="projects-container">
+          <!-- Tarjeta 1 -->
+          <article class="project-card" data-category="frontend">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=500" alt="Captura de pantalla de la plataforma de análisis web Dashboard Analytics" />
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="tag">HTML/CSS</span>
+                <span class="tag">JS</span>
+              </div>
+              <h3 class="project-title">Dashboard Analytics</h3>
+              <p class="project-desc">Panel de control dinámico e interactivo para métricas con gráficos responsive.</p>
+              <div class="project-links">
+                <button class="btn btn-secondary open-modal-btn" data-title="Dashboard Analytics" data-desc="Panel de control dinámico e interactivo diseñado para empresas modernas. Incluye modo oscuro, exportación de reportes y responsive design optimizado.">Detalles</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Tarjeta 2 -->
+          <article class="project-card" data-category="fullstack">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1556742049-0a67daf4005a?auto=format&fit=crop&q=80&w=500" alt="Tienda online E-commerce con catálogo interactivo y pasarela de pago" />
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+              </div>
+              <h3 class="project-title">E-Commerce Moderno</h3>
+              <p class="project-desc">Tienda virtual completa con pasarela de pagos integrada y carrito de compras.</p>
+              <div class="project-links">
+                <button class="btn btn-secondary open-modal-btn" data-title="E-Commerce Moderno" data-desc="Plataforma E-commerce construida con arquitectura Full Stack, gestión de usuarios, checkout seguro mediante Stripe y panel administrativo.">Detalles</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Tarjeta 3 -->
+          <article class="project-card" data-category="frontend">
+            <div class="project-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=500" alt="Aplicación móvil y web de tareas tipo Task Manager" />
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">LocalStorage</span>
+              </div>
+              <h3 class="project-title">Task Manager App</h3>
+              <p class="project-desc">Gestor de tareas diarias tipo Kanban con persistencia de datos local.</p>
+              <div class="project-links">
+                <button class="btn btn-secondary open-modal-btn" data-title="Task Manager App" data-desc="Aplicación web interactiva que te ayuda a organizar proyectos personales, establecer recordatorios y medir la productividad diaria.">Detalles</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal para Proyectos -->
+    <div class="modal" id="project-modal" aria-hidden="true">
+      <div class="modal-content">
+        <button class="close-modal" id="close-modal">&times;</button>
+        <h3 id="modal-title" class="section-title" style="text-align: left; margin-bottom: 1rem;">Título del Proyecto</h3>
+        <p id="modal-desc" style="color: var(--text-muted); margin-bottom: 1.5rem;">Descripción extensa del proyecto seleccionado.</p>
+        <button class="btn btn-primary" id="close-modal-btn">Cerrar</button>
+      </div>
+    </div>
+
+    <!-- Sección Contacto -->
+    <section id="contacto">
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <p class="section-subtitle">¿Tienes un proyecto en mente? ¡Hablemos!</p>
+
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <h4>Correo Electrónico</h4>
+                <p style="color: var(--text-muted);">alex.ramirez@ejemplo.com</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <h4>Teléfono / WhatsApp</h4>
+                <p style="color: var(--text-muted);">+34 600 000 000</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <h4>Ubicación</h4>
+                <p style="color: var(--text-muted);">Madrid, España</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulario de Contacto -->
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-message" id="form-message"></div>
+
+            <div class="form-group">
+              <label for="nombre">Nombre Completo</label>
+              <input type="text" id="nombre" class="form-control" placeholder="Ej. Juan Pérez" required>
+              <span class="error-msg" id="error-nombre">El nombre debe tener al menos 3 caracteres.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Correo Electrónico</label>
+              <input type="email" id="email" class="form-control" placeholder="Ej. juan@correo.com" required>
+              <span class="error-msg" id="error-email">Introduce un correo electrónico válido.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" rows="5" class="form-control" placeholder="Escribe tu mensaje aquí..." required></textarea>
+              <span class="error-msg" id="error-mensaje">El mensaje debe tener al menos 10 caracteres.</span>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-socials">
+        <a href="https://github.com" target="_blank" class="social-link" aria-label="Perfil de GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="Perfil de LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://twitter.com" target="_blank" class="social-link" aria-label="Perfil de Twitter"><i class="fab fa-twitter"></i></a>
+      </div>
+      <p style="color: var(--text-muted); font-size: 0.9rem;">&copy; 2026 Alex Ramírez. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botón Volver Arriba -->
+  <button class="back-to-top" id="back-to-top" aria-label="Volver arriba">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Lógica JavaScript vinculada -->
+  <script src="script.js"></script>
+</body>
+</html>
